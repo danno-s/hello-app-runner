@@ -1,4 +1,4 @@
-<!-- need to cast request.url to a string to be used later -->
+!-- need to cast request.url to a string to be used later -->
 <!-- use http for localhost and https for deployed app -->
 <!-- works around bug with x-forwarded-proto -->
 {% set request_url = request.url | string() %}
@@ -181,7 +181,7 @@ html, body {
 			<img class="apprunner_icon" src="{{ full_url ~ 'static/apprunner_icon.svg' }}" />
 		</div>
 
-		<h1>And we're live!</h1>
+		<h1>And we're live from LatAm Tech Summit!</h1>
 		<div class="metadata">
 			<p>
         {% if ( '0.0' in full_url or 'localhost' in full_url )  %}
